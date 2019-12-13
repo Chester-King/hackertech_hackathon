@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/off_back"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/out_back"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/sol1"
+        >
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         >
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_weight="5"
+             android:layout_height="wrap_content"
+             android:text="Loading..."
+             android:id="@+id/sol_id1"
+            android:textSize="35sp"
+             android:textAlignment="center"
+             android:textColor="#ffffff"
+             />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Heart Rate"
+                android:textSize="20sp"
+                android:id="@+id/heartrate1"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Temprature"
+                android:textSize="20sp"
+                android:id="@+id/temprature1"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                />
+
+
+        </LinearLayout>
+
+
+     </LinearLayout>
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/out_back"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/sol2"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:text="Loading..."
+                android:id="@+id/sol_id2"
+                android:textSize="35sp"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Heart Rate"
+                    android:textSize="20sp"
+                    android:id="@+id/heartrate2"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Temprature"
+                    android:textSize="20sp"
+                    android:id="@+id/temprature2"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>
