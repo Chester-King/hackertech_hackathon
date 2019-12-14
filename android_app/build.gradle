@@ -2,8 +2,10 @@
 
 buildscript {
     repositories {
+        maven { url "https://maven.google.com" }
         google()
         jcenter()
+        maven { url 'https://maven.fabric.io/public' }
         
     }
     dependencies {
@@ -17,9 +19,10 @@ buildscript {
 
 allprojects {
     repositories {
+        maven { url "https://maven.google.com" }
         google()
         jcenter()
-        
+        maven { url 'https://maven.fabric.io/public' }
     }
 }
 

@@ -5,6 +5,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -25,7 +26,9 @@ public class StatActivity extends AppCompatActivity {
     DatabaseReference troopRef;
     TextView heartrate,temprature,latitude,longitude,sos;
     String sos_state;
-    LottieAnimationView danger;
+    LottieAnimationView danger,map;
+    String lat,lon;
+
     LinearLayout sos_layout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +47,7 @@ public class StatActivity extends AppCompatActivity {
         latitude=findViewById(R.id.latitude);
         longitude=findViewById(R.id.longitude);
         sos=findViewById(R.id.sos);
+        map=findViewById(R.id.locate);
 
 
 
@@ -65,7 +69,7 @@ public class StatActivity extends AppCompatActivity {
         troopRef.child("bv").child("temp").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                temprature.setText(String.valueOf(dataSnapshot.getValue()));
+                temprature.setText(String.valueOf(dataSnapshot.getValue())+(char) 0x00B0+"C");
             }
 
             @Override
@@ -77,6 +81,7 @@ public class StatActivity extends AppCompatActivity {
         troopRef.child("gps").child("latitude").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                lat=String.valueOf(dataSnapshot.getValue());
                 latitude.setText("Latitude : "+String.valueOf(dataSnapshot.getValue()));
             }
 
@@ -89,6 +94,7 @@ public class StatActivity extends AppCompatActivity {
         troopRef.child("gps").child("longitude").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                lon=String.valueOf(dataSnapshot.getValue());
                 longitude.setText("Longitude : "+String.valueOf(dataSnapshot.getValue()));
             }
 
@@ -123,6 +129,14 @@ public class StatActivity extends AppCompatActivity {
             }
         });
 
+
+        map.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:"+lat+","+lon+"?q="+lat+","+lon+"(Troop+"+troop+")"));
+                startActivity(intent);
+            }
+        });
 
 
     }

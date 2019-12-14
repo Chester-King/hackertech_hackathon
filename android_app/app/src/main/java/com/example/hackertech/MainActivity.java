@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 Log.v("Soldier Stats - Temperature",String.valueOf(dataSnapshot.getValue()));
-                temprature1.setText(String.valueOf(dataSnapshot.getValue())+(char) 0x00B0+"F");
+                temprature1.setText(String.valueOf(dataSnapshot.getValue())+(char) 0x00B0+"C");
             }
 
             @Override
@@ -171,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 Log.v("Soldier Stats - Temperature",String.valueOf(dataSnapshot.getValue()));
-                temprature2.setText(String.valueOf(dataSnapshot.getValue())+(char) 0x00B0+"F");
+                temprature2.setText(String.valueOf(dataSnapshot.getValue())+(char) 0x00B0+"C");
             }
 
             @Override

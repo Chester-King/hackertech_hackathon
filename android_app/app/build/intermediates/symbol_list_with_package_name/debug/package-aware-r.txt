@@ -1134,6 +1134,12 @@ dimen hint_pressed_alpha_material_light
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
+dimen mapbox_defaultMultiTapMovementThreshold
+dimen mapbox_defaultMutliFingerSpanThreshold
+dimen mapbox_defaultScaleSpanSinceStartThreshold
+dimen mapbox_defaultShovePixelThreshold
+dimen mapbox_internalScaleMinSpan23
+dimen mapbox_internalScaleMinSpan24
 dimen material_emphasis_disabled
 dimen material_emphasis_high_type
 dimen material_emphasis_medium
@@ -1889,6 +1895,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_map
 layout activity_splash
 layout activity_stat
 layout custom_dialog

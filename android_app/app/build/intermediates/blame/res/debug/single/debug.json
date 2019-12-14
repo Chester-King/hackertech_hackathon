@@ -476,6 +476,10 @@
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\8905e6c28382fb3e93431ed1952e4409\\material-1.2.0-alpha02\\res\\layout\\mtrl_picker_header_toggle.xml"
     },
     {
+        "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_map.xml.flat",
+        "source": "D:\\Work\\hackertech\\android_app\\app\\src\\main\\res\\layout\\activity_map.xml"
+    },
+    {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_power_back.xml.flat",
         "source": "D:\\Work\\hackertech\\android_app\\app\\src\\main\\res\\drawable\\power_back.xml"
     },
