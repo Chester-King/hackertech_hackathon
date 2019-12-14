@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
+import com.google.android.material.button.MaterialButton;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -24,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
     TextView heartrate1,temprature1,id1;
     TextView heartrate2,temprature2,id2;
     FrameLayout frameLayout1,frameLayout2;
+    MaterialButton maps;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,9 +39,17 @@ public class MainActivity extends AppCompatActivity {
         id2=findViewById(R.id.sol_id2);
         frameLayout1=findViewById(R.id.sol1);
         frameLayout2=findViewById(R.id.sol2);
+        maps=findViewById(R.id.maps);
         soldier_stats1();
         soldier_stats2();
         troop_click();
+
+        maps.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,MapsActivity.class));
+            }
+        });
 
 
     }

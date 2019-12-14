@@ -72,12 +72,12 @@
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\31e27e36e4e3975b810490a9efac1d77\\appcompat-1.1.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_day_of_week.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\8905e6c28382fb3e93431ed1952e4409\\material-1.2.0-alpha02\\res\\layout\\mtrl_calendar_day_of_week.xml"
-    },
-    {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "D:\\Work\\hackertech\\android_app\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_day_of_week.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\8905e6c28382fb3e93431ed1952e4409\\material-1.2.0-alpha02\\res\\layout\\mtrl_calendar_day_of_week.xml"
     },
     {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_title_material.xml.flat",
@@ -132,16 +132,12 @@
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\31e27e36e4e3975b810490a9efac1d77\\appcompat-1.1.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_month_labeled.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\8905e6c28382fb3e93431ed1952e4409\\material-1.2.0-alpha02\\res\\layout\\mtrl_calendar_month_labeled.xml"
-    },
-    {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\31e27e36e4e3975b810490a9efac1d77\\appcompat-1.1.0\\res\\layout\\abc_tooltip.xml"
     },
     {
-        "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\24b548ffb7957c6303ba23318706af16\\media-1.0.0\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+        "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_month_labeled.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\8905e6c28382fb3e93431ed1952e4409\\material-1.2.0-alpha02\\res\\layout\\mtrl_calendar_month_labeled.xml"
     },
     {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_menu_item_action_area.xml.flat",
@@ -162,10 +158,6 @@
     {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_test_toolbar_surface.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\8905e6c28382fb3e93431ed1952e4409\\material-1.2.0-alpha02\\res\\layout\\test_toolbar_surface.xml"
-    },
-    {
-        "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\24b548ffb7957c6303ba23318706af16\\media-1.0.0\\res\\layout\\notification_template_lines_media.xml"
     },
     {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_year.xml.flat",
@@ -210,10 +202,6 @@
     {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_test_toolbar_custom_background.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\8905e6c28382fb3e93431ed1952e4409\\material-1.2.0-alpha02\\res\\layout\\test_toolbar_custom_background.xml"
-    },
-    {
-        "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\24b548ffb7957c6303ba23318706af16\\media-1.0.0\\res\\layout\\notification_template_big_media_custom.xml"
     },
     {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
@@ -280,12 +268,12 @@
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\8905e6c28382fb3e93431ed1952e4409\\material-1.2.0-alpha02\\res\\layout\\test_toolbar.xml"
     },
     {
-        "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\24b548ffb7957c6303ba23318706af16\\media-1.0.0\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar_include.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\8905e6c28382fb3e93431ed1952e4409\\material-1.2.0-alpha02\\res\\layout\\mtrl_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps.xml.flat",
+        "source": "D:\\Work\\hackertech\\android_app\\app\\src\\main\\res\\layout\\activity_maps.xml"
     },
     {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_separator.xml.flat",
@@ -336,10 +324,6 @@
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\8905e6c28382fb3e93431ed1952e4409\\material-1.2.0-alpha02\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
-        "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\24b548ffb7957c6303ba23318706af16\\media-1.0.0\\res\\layout\\notification_template_media.xml"
-    },
-    {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout-watch-v20_abc_alert_dialog_title_material.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\31e27e36e4e3975b810490a9efac1d77\\appcompat-1.1.0\\res\\layout-watch-v20\\abc_alert_dialog_title_material.xml"
     },
@@ -370,10 +354,6 @@
     {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_horizontal.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\8905e6c28382fb3e93431ed1952e4409\\material-1.2.0-alpha02\\res\\layout\\mtrl_calendar_horizontal.xml"
-    },
-    {
-        "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\24b548ffb7957c6303ba23318706af16\\media-1.0.0\\res\\layout\\notification_template_big_media.xml"
     },
     {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple.xml.flat",
@@ -410,10 +390,6 @@
     {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\14a79f6ebd9e7f0f0d0c6139a48fc037\\core-1.1.0\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\24b548ffb7957c6303ba23318706af16\\media-1.0.0\\res\\layout\\notification_template_media_custom.xml"
     },
     {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_header_title_text.xml.flat",
@@ -476,10 +452,6 @@
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\8905e6c28382fb3e93431ed1952e4409\\material-1.2.0-alpha02\\res\\layout\\mtrl_picker_header_toggle.xml"
     },
     {
-        "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_map.xml.flat",
-        "source": "D:\\Work\\hackertech\\android_app\\app\\src\\main\\res\\layout\\activity_map.xml"
-    },
-    {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_power_back.xml.flat",
         "source": "D:\\Work\\hackertech\\android_app\\app\\src\\main\\res\\drawable\\power_back.xml"
     },
@@ -498,10 +470,6 @@
     {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\14a79f6ebd9e7f0f0d0c6139a48fc037\\core-1.1.0\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\24b548ffb7957c6303ba23318706af16\\media-1.0.0\\res\\layout\\notification_media_action.xml"
     },
     {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\anim_fadein.xml.flat",
@@ -530,10 +498,6 @@
     {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_header_dialog.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\8905e6c28382fb3e93431ed1952e4409\\material-1.2.0-alpha02\\res\\layout\\mtrl_picker_header_dialog.xml"
-    },
-    {
-        "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\24b548ffb7957c6303ba23318706af16\\media-1.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "D:\\Work\\hackertech\\android_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_alert_select_dialog_item.xml.flat",

@@ -11,88 +11,128 @@
 10        android:targetSdkVersion="29" />
 10-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml
 11
-12    <dist:module dist:instant="true" />
-12-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:6:5-40
-12-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:6:18-37
-13
-14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-14-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:8:5-79
-14-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:8:22-76
-15    <uses-permission android:name="android.permission.INTERNET" />
-15-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:9:5-67
-15-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:9:22-64
-16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[com.google.firebase:firebase-database:16.0.4] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b2704ccd6d3ad2f682474bc04c46a1ab\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
-16-->[com.google.firebase:firebase-database:16.0.4] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b2704ccd6d3ad2f682474bc04c46a1ab\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
-17
-18    <application
-18-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:11:5-28:19
-19        android:allowBackup="true"
-19-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:12:9-35
-20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-20-->[androidx.core:core:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\14a79f6ebd9e7f0f0d0c6139a48fc037\core-1.1.0\AndroidManifest.xml:24:18-86
-21        android:debuggable="true"
-22        android:extractNativeLibs="false"
-23        android:icon="@mipmap/ic_launcher"
-23-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:13:9-43
-24        android:label="@string/app_name"
-24-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:14:9-41
-25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:15:9-54
-26        android:supportsRtl="true"
-26-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:16:9-35
-27        android:testOnly="true"
-28        android:theme="@style/AppTheme" >
-28-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:17:9-40
-29        <activity android:name="com.example.hackertech.MapActivity" />
-29-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:18:9-58
-29-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:18:19-46
-30        <activity android:name="com.example.hackertech.StatActivity" />
-30-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:19:9-50
-30-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:19:19-47
-31        <activity android:name="com.example.hackertech.SplashActivity" >
-31-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:20:9-26:20
-31-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:20:19-49
-32            <intent-filter>
-32-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:21:13-25:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:22:17-69
-33-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:22:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:24:17-77
-35-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:24:27-74
-36            </intent-filter>
-37        </activity>
-38        <activity android:name="com.example.hackertech.MainActivity" />
-38-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:27:9-50
-38-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:27:19-47
-39        <activity
-39-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0f680c7f055e731695a26fc3cd76450c\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
-40            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-40-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0f680c7f055e731695a26fc3cd76450c\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
-41            android:exported="false"
-41-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0f680c7f055e731695a26fc3cd76450c\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
-42            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-42-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0f680c7f055e731695a26fc3cd76450c\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
-43
-44        <provider
-44-->[com.google.firebase:firebase-common:16.0.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\01312765bd5698bcb09880e9b4de02c9\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
-45            android:name="com.google.firebase.provider.FirebaseInitProvider"
-45-->[com.google.firebase:firebase-common:16.0.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\01312765bd5698bcb09880e9b4de02c9\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
-46            android:authorities="com.example.hackertech.firebaseinitprovider"
-46-->[com.google.firebase:firebase-common:16.0.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\01312765bd5698bcb09880e9b4de02c9\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
-47            android:exported="false"
-47-->[com.google.firebase:firebase-common:16.0.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\01312765bd5698bcb09880e9b4de02c9\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
-48            android:initOrder="100" />
-48-->[com.google.firebase:firebase-common:16.0.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\01312765bd5698bcb09880e9b4de02c9\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
-49
-50        <meta-data
-50-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3cdf0e51b57ec2bf044f984742728fb3\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
-51            android:name="com.google.android.gms.version"
-51-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3cdf0e51b57ec2bf044f984742728fb3\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
-52            android:value="@integer/google_play_services_version" />
-52-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3cdf0e51b57ec2bf044f984742728fb3\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
-53    </application>
-54
-55</manifest>
+12    <!--
+13         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+14         Google Maps Android API v2, but you must specify either coarse or fine
+15         location permissions for the 'MyLocation' functionality.
+16    -->
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:11:5-79
+17-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:11:22-76
+18
+19    <dist:module dist:instant="true" />
+19-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:13:5-40
+19-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:13:18-37
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:15:5-67
+21-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:15:22-64
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.firebase:firebase-database:16.0.4] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b2704ccd6d3ad2f682474bc04c46a1ab\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+22-->[com.google.firebase:firebase-database:16.0.4] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b2704ccd6d3ad2f682474bc04c46a1ab\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+23
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d8d0d5936e0671268ee072cc9e074215\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d8d0d5936e0671268ee072cc9e074215\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+26        android:required="true" />
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d8d0d5936e0671268ee072cc9e074215\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+27
+28    <application
+28-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:17:5-49:19
+29        android:allowBackup="true"
+29-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:18:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\14a79f6ebd9e7f0f0d0c6139a48fc037\core-1.1.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:icon="@mipmap/ic_launcher"
+33-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:19:9-43
+34        android:label="@string/app_name"
+34-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:20:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:21:9-54
+36        android:supportsRtl="true"
+36-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:22:9-35
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme" >
+38-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:23:9-40
+39
+40        <!--
+41             The API key for Google Maps-based APIs is defined as a string resource.
+42             (See the file "res/values/google_maps_api.xml").
+43             Note that the API key is linked to the encryption key used to sign the APK.
+44             You need a different API key for each encryption key, including the release key that is used to
+45             sign the APK for publishing.
+46             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+47        -->
+48        <meta-data
+48-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:33:9-35:55
+49            android:name="com.google.android.geo.API_KEY"
+49-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:34:13-58
+50            android:value="@string/google_maps_key" />
+50-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:35:13-52
+51
+52        <activity
+52-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:37:9-39:68
+53            android:name="com.example.hackertech.MapsActivity"
+53-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:38:13-41
+54            android:label="@string/title_activity_maps" />
+54-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:39:13-56
+55        <activity android:name="com.example.hackertech.StatActivity" />
+55-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:40:9-50
+55-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:40:19-47
+56        <activity android:name="com.example.hackertech.SplashActivity" >
+56-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:41:9-47:20
+56-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:41:19-49
+57            <intent-filter>
+57-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:42:13-46:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:43:17-69
+58-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:43:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:45:17-77
+60-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:45:27-74
+61            </intent-filter>
+62        </activity>
+63        <activity android:name="com.example.hackertech.MainActivity" />
+63-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:48:9-50
+63-->D:\Work\hackertech\android_app\app\src\main\AndroidManifest.xml:48:19-47
+64        <!-- Needs to be explicitly declared on P+ -->
+65        <uses-library
+65-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d8d0d5936e0671268ee072cc9e074215\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+66            android:name="org.apache.http.legacy"
+66-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d8d0d5936e0671268ee072cc9e074215\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+67            android:required="false" />
+67-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d8d0d5936e0671268ee072cc9e074215\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+68
+69        <activity
+69-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\961ab0d27f059c60636ef3d501ab34dd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+70            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+70-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\961ab0d27f059c60636ef3d501ab34dd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+71            android:exported="false"
+71-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\961ab0d27f059c60636ef3d501ab34dd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+72-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\961ab0d27f059c60636ef3d501ab34dd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+73
+74        <provider
+74-->[com.google.firebase:firebase-common:16.0.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\01312765bd5698bcb09880e9b4de02c9\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+75            android:name="com.google.firebase.provider.FirebaseInitProvider"
+75-->[com.google.firebase:firebase-common:16.0.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\01312765bd5698bcb09880e9b4de02c9\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+76            android:authorities="com.example.hackertech.firebaseinitprovider"
+76-->[com.google.firebase:firebase-common:16.0.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\01312765bd5698bcb09880e9b4de02c9\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+77            android:exported="false"
+77-->[com.google.firebase:firebase-common:16.0.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\01312765bd5698bcb09880e9b4de02c9\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+78            android:initOrder="100" />
+78-->[com.google.firebase:firebase-common:16.0.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\01312765bd5698bcb09880e9b4de02c9\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+79
+80        <meta-data
+80-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d508d400fa29798d2233692c1754221c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+81            android:name="com.google.android.gms.version"
+81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d508d400fa29798d2233692c1754221c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+82            android:value="@integer/google_play_services_version" />
+82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d508d400fa29798d2233692c1754221c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+83    </application>
+84
+85</manifest>
